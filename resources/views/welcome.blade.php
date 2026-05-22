@@ -30,10 +30,9 @@
                 <a href="#about" class="hover:text-white transition-colors">About</a>
                 <a href="#" class="hover:text-white transition-colors">Contact</a>
             </div>
-            <button
-                class="px-5 py-2 text-sm font-semibold bg-white text-black rounded hover:bg-gray-300 transition-colors">
+            <a href="{{ asset('assets/cv-fikri.pdf') }}" download="CV_fikri.pdf" class="px-5 py-2 text-sm font-semibold bg-transparent border border-white text-white rounded-full hover:bg-white/20 transition-all duration-300 inline-block backdrop-blur-sm">
                 Download CV
-            </button>
+            </a>
         </nav>
 
         <!-- Hero Section -->
