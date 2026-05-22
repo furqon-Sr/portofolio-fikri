@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #1E1E1E;
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Termina", sans-serif;
+}
